@@ -76,7 +76,7 @@ namespace NBCC_WMAD_Console
             {
                 foreach(Car cr in carList)
                 {
-                    Out.P($"\n Car Type: {cr.CarType} \n Number of doors: {cr.NumberOfDooers} \n Car Speed {cr.Speed}");
+                    Out.P($"\n Car Type: {cr.CarType} \n Number of doors: {cr.NumberOfDooers} \n Car Speed {cr.Speed} \n Car Price {cr.Price.GetValueOrDefault().ToString("c")}");
                 }
             }
 
